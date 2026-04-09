@@ -1,0 +1,91 @@
+
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+    font-family:  sans-serif;
+    text-decoration: none;
+}
+
+
+/* exercie 1 */
+#title{
+    color: rgb(188, 19, 19);
+}
+.text{
+    color: rgb(10, 10, 148);
+}
+/* exercice 1 fin */
+
+
+
+/* exercice 3 */
+.container p{
+    color: rgb(15, 125, 15);
+}
+
+/* exercice 3 fin*/
+
+
+
+/* exercice 4 */
+.container > p {
+    color: rgb(174, 7, 7);
+}
+/* exercice 4 end*/
+
+
+/* exercice 5 */
+h2 + p{
+    color: orange;
+}
+/* exercice 5 fin */
+
+/* exercice 6 */
+p ~ p {
+    color: brown;
+}
+/* exercice 6 fin*/
+
+/* exercice 7 */
+input[type="text"]{
+    border-color: green;
+    height: 2rem;
+}
+input::placeholder{
+    color: rgb(0, 195, 255);
+}
+/* exercice 7 fin */
+
+/* exercie 8 */
+ul li:hover{
+    color: blueviolet;
+}
+ul li:first-child {
+ text-transform: uppercase;
+}
+ul li:last-child{
+ font-style: italic;
+}
+/* exercie 8 end */
+
+/* exerice 9 */
+ul li:nth-child(2n){
+    color: rgb(172, 175, 172);
+}
+ul li:nth-child(3n){
+    color: black;
+}
+/* exerice 9 fin */
+
+
+/* exerice 10 */
+.card .description{
+    color: rgb(207, 12, 204);
+}
+.card p{
+    color: rgb(54, 161, 164);
+}
+.card h3{
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+/* exerice 10 fin */
