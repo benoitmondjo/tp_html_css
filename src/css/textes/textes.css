@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+/* exerice 8 */
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    padding: 0 .4rem;
+}
+/* exerice 8 end */
+
+
+/* exercice 1 start*/
+.p_ex1{
+    color: rgb(97, 83, 83);
+    font-size: 18px;
+    font-family: sans-serif;
+}
+/* exercice 1 end */
+
+
+/* exercice 2  */
+h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 2rem;
+
+}
+.p_ex2{
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+/* exercice 2 end */
+
+
+/* exercice 3 */
+.ex3{
+    margin: 3rem 0;
+}
+.ex3 p:first-child{
+    text-align: right;
+}
+.ex3 p:nth-child(2n){
+    text-align: center;
+}
+.ex3 p:last-child{
+    text-align: left;
+}
+/* exercice 3 end */
+
+/* exercice 4 */
+.p_ex4{
+    line-height: 2;
+}
+/* exercice 4 end */
+
+
+/* exercice 5 */
+.title_ex5{
+    letter-spacing: 12px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.p_ex5{
+    word-spacing: 14px;
+}
+/* exercice 5 end */
+
+/* exercice 6 */
+.a_ex6{
+    text-decoration: none;
+}
+.a_ex6:hover{
+    text-decoration-line: underline;
+}
+/* exercice 6 end */
+
+/* exerice 7 */
+.title_ex7{
+    text-shadow: 10px -3px 5px rgba(22, 169, 34, 0.5);
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+/* exerice 7 end */
+
+
+/* exercice 10 */
+.card{
+    max-width: 300px;
+    border-radius: .6rem;
+    border: .1rem solid rgb(187, 171, 171);
+    padding: .5rem .5rem;
+    margin-bottom: 2rem;
+}
+.card .title{
+    font-size: 2rem;
+}
+.card .sub-title{
+    font-size: 1.2rem;
+    margin-bottom: .3rem;
+}
+/* exercice 10 end */
