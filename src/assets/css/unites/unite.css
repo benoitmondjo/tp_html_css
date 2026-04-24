@@ -1,0 +1,181 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* exercice 2 */
+    font-size: 16px;
+    /* exercice 2 end */
+}
+
+/* exercice 1 */
+.ex1{
+    width: 500px;
+    border: 2px solid brown;
+}
+.ex1 .div1{
+    width: 250px;
+    height: 100px;
+    border: 2px solid rgb(52, 22, 153);
+
+}
+.ex1 .div2{
+    width: 50%;
+    height: 100px;
+    border: 2px solid rgb(15, 123, 90);
+
+}
+/* exercice 1 end */
+
+/* exercice 2  */
+.ex2 p{
+    font-size: 2em;
+
+    span{
+        font-size: 1.5em;
+    }
+
+    /* La taille du paragraphe est de 16x2 = 32px */
+    /* La taille de la span est de 21x1.5 = 48px */
+}
+/* exercice 2 end */
+   
+
+
+/* exercice 3 */
+    /* La taille du paragraphe est de 16 x 2 = 32px */
+    /* La taille de la span est de 16 x 1.5 = 24px */
+/* exercice 3 end */
+
+
+/* exercice 4 */
+.ex4{
+    .container{
+        overflow-x: hidden;
+
+        display: grid;
+        grid-template-columns: repeat(3, 33.33%);
+        gap: 5px;
+    }
+    .item{
+        padding: 30px;
+        background-color: green;
+    }
+}
+/* exercice 4 end */
+
+
+/* exerice 5 */
+.ex5{
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p{
+        text-align: center;
+    }
+}
+/* exerice 5 end */
+
+/* exercice 6 */
+.ex6{
+    .banner{
+        width: 100vh;
+    }
+}
+/* exercice 6 end */
+
+/* exercice 7 */
+.ex7{
+    .card{
+        width: 30%;
+        border: 1px solid grey;
+        border-radius: 10px;
+    }
+    .card-img{
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .card-body{
+        padding: .8rem;
+
+        .title{
+            padding-bottom: .8rem;
+        }
+    }
+}
+
+/* exercice 7 end */
+
+/* exercice 8 */
+.ex8{
+    h1{
+        font-size: 5vw;
+    }
+}
+/* exercice 8 end */
+
+/* exercice 9 */
+.ex9{
+    p{
+        font-size: clamp(16px, 2vw, 24px);
+    }
+}
+/* exercice 9 end */
+
+/* exercice 10 */
+.ex10{
+    .card {
+        width: 90%;
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 1.5rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        font-size: 1rem; 
+        background: #fff;
+    }
+
+    .card-img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        display: block;
+    }
+
+    .card-content {
+        margin-top: 1rem;
+    }
+
+    .card-title {
+        font-size: 1.4rem; 
+        margin-bottom: 0.5rem;
+    }
+
+    .card-text {
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #555;
+    }
+
+    .card-btn {
+        margin-top: 1rem;
+        padding: 0.8em 1.2em;
+        font-size: 1em;
+        border: none;
+        border-radius: 8px;
+        background: #007bff;
+        color: white;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .card-btn:hover {
+        background: #0056b3;
+    }
+}
+/* exercice 10 end */

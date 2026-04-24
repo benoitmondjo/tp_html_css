@@ -1,104 +1,94 @@
-<!-- 
-🔹 Exercice 1 — Différence px vs %
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les unités en css.</title>
+    <link rel="stylesheet" href="../assets/css/unites/unite.css">
+</head>
+<body>
 
-Crée une div parent de 500px de largeur.
-À l’intérieur, crée deux blocs :
+    <!-- exercice 1 -->
+     <div class="ex1">
+        <div class="div1">width 250px</div>
+        <div class="div2">width 50%</div>
+     </div>
+    <!-- exercice 1 end -->
 
-un en width: 250px
-un en width: 50%
+    <!-- exercice 2  -->
+     <div class="ex2">
+        <p>Lorem ipsum dolor sit amet  consectetur <span>element sapn imbriquer</span> adipisicing elit.</p>
+     </div>
+    <!-- exercice 2  end -->
 
-👉 Objectif : comprendre la différence entre valeur fixe et relative.
+    <!-- exercice 4 -->
+     <div class="ex4">
+        <div class="container">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+     </div>
+    <!-- exercice 4 end -->
 
-🔹 Exercice 2 — Utiliser em
 
-Définis :
+    <!-- exercice 5 -->
+    <section class="ex5">
+        <p>Text centré, Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+     </section>
+    <!-- exercice 5 end -->
 
-body {
-font-size: 16px;
-}
+    <!-- exercice 6 -->
+     <div class="ex6">
+        <div class="banner"></div>
+     </div>
+    <!-- exercice 6 end -->
 
-Puis crée un paragraphe avec :
+    <!-- exercice 7 -->
+     <div class="ex7">
+        <div class="card">
+            <div class="card-img">
+                <img src="../assets/img/page_unties/card_1.jpg" alt="">
+            </div>
+            <div class="card-body">
+                <h3 class="title">Lorem ipsum dolor sit.</h3>
+                <p class="content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil id qui consequatur harum voluptas dolorem exercitationem quaerat doloremque eveniet quam.
+                </p>
+            </div>
+        </div>
+     </div>
+    <!-- exercice 7 end -->
 
-p {
-font-size: 2em;
-}
+    <!-- exercice 8 -->
+     <div class="ex8">
+        <h1>Lorem ipsum dolor, sit amet consectetur adipisicing.</h1>
+     </div>
+    <!-- exercice 8 end -->
 
-👉 Question : quelle est la taille finale ?
-👉 Ensuite imbrique un span avec font-size: 1.5em → observe l’effet cumulatif.
+    <!-- exercice 9 -->
+     <div class="ex9">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, obcaecati voluptatum! Voluptates deserunt fugiat perferendis minus, rerum tempore ullam nobis optio accusantium, libero modi animi atque sunt! Ut, labore tempora.</p>
+     </div>
+    <!-- exercice 9 end -->
 
-🔹 Exercice 3 — Utiliser rem
+    <!-- exercice 10 -->
+     <div class="ex10">
+        <div class="card">
+            <img src="../assets/img/page_unties/card_2.jpg" alt="Produit" class="card-img">
 
-Refais l’exercice précédent mais avec rem.
+            <div class="card-content">
+                <h2 class="card-title">Produit Premium</h2>
+                <p class="card-text">
+                Un produit de qualité conçu pour offrir la meilleure expérience utilisateur.
+                </p>
 
-👉 Objectif : comprendre pourquoi rem est plus stable que em.
-
-🔹 Exercice 4 — Layout responsive avec %
-
-Crée une grille simple :
-
-un conteneur
-3 colonnes de 33.33%
-
-👉 Ajoute du gap ou des marges → corrige les débordements.
-
-🔹 Exercice 5 — Hauteur avec vh
-
-Crée une section fullscreen :
-
-section {
-height: 100vh;
-}
-
-👉 Ajoute un texte centré verticalement et horizontalement.
-
-🔹 Exercice 6 — Largeur avec vw
-
-Crée une bannière :
-
-.banner {
-width: 100vw;
-}
-
-👉 Observe le scroll horizontal potentiel → corrige avec overflow.
-
-🔹 Exercice 7 — Mélange d’unités
-
-Crée une carte avec :
-
-padding en rem
-largeur en %
-border-radius en px
-
-👉 Objectif : comprendre quand utiliser chaque unité.
-
-🔹 Exercice 8 — Typographie responsive
-
-Crée un titre avec :
-
-h1 {
-font-size: 5vw;
-}
-
-👉 Teste sur différentes tailles d’écran.
-
-🔹 Exercice 9 — Limiter avec min / max
-
-Crée un texte :
-
-p {
-font-size: clamp(16px, 2vw, 24px);
-}
-
-👉 Objectif : comprendre les limites dynamiques.
-
-🔹 Exercice 10 — Cas réel (mini projet)
-
-Crée une carte produit responsive :
-
-largeur : 90% max 400px
-padding en rem
-image en 100%
-texte en rem
-bouton avec em
-
-👉 Objectif : structurer une UI propre et scalable. -->
+                <button class="card-btn">Acheter</button>
+            </div>
+        </div>
+     </div>
+    <!-- exercice 10 end -->
+    
+</body>
+</html>
