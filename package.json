@@ -1,0 +1,25 @@
+{
+  "name": "tp_html_css",
+  "version": "1.0.0",
+  "description": "Créer une **navigation dans la page `index`** permettant d’accéder à chaque exercice du projet.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dasilva218/tp_html_css.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/dasilva218/tp_html_css/issues"
+  },
+  "homepage": "https://github.com/dasilva218/tp_html_css#readme",
+  "dependencies": {
+    "vite": "^8.0.10"
+  }
+}
