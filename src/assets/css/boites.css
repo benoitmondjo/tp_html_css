@@ -1,0 +1,151 @@
+* {
+    font-family: sans-serif;
+}
+
+/* exercice 1 */
+.ex1 div {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(32, 32, 180);
+
+    padding: 20px;
+    border: 5px solid black;
+    margin: 30px;
+
+    color: white;
+    /* 
+        largeur du contenu : 200px
+        padding gauche + droite : 20px + 20px = 40px
+        border gauche + droite : 5px + 5px = 10px
+        margin gauche + droite : 30px + 30px = 60px
+        Total = Largeur + padding + border + margin = 200 + 40 + 10 + 60 =310px
+    */
+}
+
+/* exercice 1 end */
+
+/* exercice 2 */
+.ex1 div {
+    box-sizing: border-box;
+
+    /* 
+        La largeur inclue maintenant : le contenu, le padding, la border
+        Nouvelle largeur réelle: width = 200px (fixe)
+        padding + border sont déduits de l’intérieur
+
+        contenu réel = 200 - (20 + 20) - (5 + 5) = 150px
+    */
+}
+
+/* exercice 2 end */
+
+
+/* exercice 3 */
+.ex3 button {
+    padding: 10px 30px 5px 50px;
+    text-align: center;
+}
+
+/* exericie 4 */
+.ex4 .box {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 50px;
+
+    /*l’espace entre les deux n’est pas 100px à cause du margin collapsing (fusion des marges verticales) */
+}
+
+/* exericie 5 */
+.ex5 {
+    width: 300px;
+    height: 100px;
+    background-color: rgb(120, 178, 197);
+    margin: 0 auto;
+
+    /* ça marche uniquement si la largeur est définie (comme ici avec 300px) */
+}
+
+/* exerice 6 */
+.ex6 .card {
+    border: 2px solid rgb(21, 196, 181);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+
+    margin-bottom: 30px;
+}
+
+/* exercice 7 */
+.ex7 {
+    height: 100px;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto;
+    margin-bottom: 50px;
+}
+
+/* exercice 8 */
+.ex8 .span,
+.ex8 .div {
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid rgb(111, 205, 237);
+
+    /* un element div est en display block, elle prend toute la largeur disponible 
+     un element span est en display inline , il reste dans le flux du texte (comme un mot dans une phrase), width et height sont ignorés*/
+}
+
+/* exercice 9 */
+.ex9 {
+    display: flex;
+
+    .box {
+        width: 33.33%;
+        padding: 20px;
+        border: 2px solid rgb(31, 188, 235);
+        box-sizing: border-box;
+
+    }
+}
+
+/* exercice 10 */
+.ex10 {
+    .card {
+        width: 250px;
+        border: 2px solid rgb(127, 228, 237);
+        border-radius: 10px;
+        padding: 10px;
+        margin: 20px;
+        font-family: Arial, sans-serif;
+    }
+
+    .card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .card h3 {
+        margin: 10px 0;
+    }
+
+    .card p {
+        margin-bottom: 15px;
+    }
+
+    .card button {
+        padding: 10px 15px;
+        border: none;
+        background: rgb(5, 182, 198);
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .card button:hover {
+        background: rgb(2, 110, 119);
+    }
+}
